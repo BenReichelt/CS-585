@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ben R | Splash Page</title>
+</head>
+<body>
+<h1>CS 585</h2>
+
+<hr style="width:10%;text-align:left;margin-left:0">
+
+<h2>Assignment 1:</h2>
+
+<p>For a programming part of this assignment, I used a photo of my face to experiment with image augmentation in python.</p>
+
+<img src="face_before.jpg" style="width:400px;height:400px;">
+
+<h3>Process:</h3>
+
+<ol>
+	<li><b>Turn the image to greyscale</b></li>
+		<img src="face_after.jpg" style="width:400px;height:400px;">
+		<p>I made a copy of the original image, and iterated through it's rows and columns and altered the copy image's color channel by setting it to an average of the RGB channels<p>	
+	<li><b>Invert the color channel</b></li>
+		<img src="image_after.jpg" style="width:400px;height:400px;">
+		<p>Then I took the altered greyscale image and iterated through it's color channel and subtracted each value from 255 in order to invert the greyscale colors.</p>
+</ol>
+</body>
+</html>
